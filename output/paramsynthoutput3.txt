@@ -1,0 +1,35 @@
+fractal
+Complete
+5/21/2015 5:54 PM
+5/23/2015 2:21 AM
+2:06:23:34
+LPS-evap 0.932575
+exp1-dose-amount 3352.54
+mac-act-LPS 0.661416
+exp2-dose-time 467.262
+mac-act-pro 0.326682
+exp2-dose-duration 458.451
+mac-regen 12.655
+exp2-dose-amount 896067
+mac-age 60.5967
+exp3-1st-dose-time 33.3838
+mac-act-dam 0.3916
+exp3-1st-dose-duration 41.6759
+max-pro-dam 18.5986
+exp3-2nd-dose-time 407.352
+pro-dam-thresh 0.51023
+exp3-2nd-dose-duration 41.6759
+damage-evap 0.276594
+exp3-doses-amount 2628.97
+anti-heal-thresh 7.92487
+exp4-1st-dose-time 8.24293
+mac-anti 0.442621
+exp4-1st-dose-duration 4.40842
+anti-evap 0.623503 
+exp4-2nd-dose-time 411.959
+pro-evap 0.142298
+exp4-2nd-dose-duration 4.40842
+mac-prop 8.39519
+exp4-doses-amount 4494.65
+exp1-dose-time 149.574 
+exp1-dose-duration 56.54666
