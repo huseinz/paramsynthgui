@@ -22,10 +22,10 @@ int Network::authenticate(QString username, QString passwordHash)
     short passwordHashlength = passwordHash.length();
 
     sock.write((const char*)&usernamelength);
-    sock.write(username.toAscii());
+    sock.write(username.toLatin1());
 
     sock.write((const char*)&passwordHashlength);
-    sock.write(passwordHash.toAscii());
+    sock.write(passwordHash.toLatin1());
 
     if(!sock.waitForReadyRead(5000))
         return false;

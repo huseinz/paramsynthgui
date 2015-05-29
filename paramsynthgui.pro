@@ -5,7 +5,7 @@
 #-------------------------------------------------
 
 CONFIG   += qt
-QT	 += gui
+#QT	 += gui
 QT       += core gui
 QT       += network
 

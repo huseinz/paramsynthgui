@@ -44,7 +44,7 @@ void LoginWindow::on_loginButton_clicked()
 int LoginWindow::checkCredentials()
 {
     QString username = ui->usernameEdit->text();
-    QString password = QString(QCryptographicHash::hash(ui->passwordEdit->text().toAscii(),QCryptographicHash::Md5).toHex());
+    QString password = QString(QCryptographicHash::hash(ui->passwordEdit->text().toLatin1(),QCryptographicHash::Md5).toHex());
 
     return Network::authenticate(username, password);
 }
