@@ -67,7 +67,7 @@
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>../build-paramsynthgui-Desktop-Debug/Space-Plant-icon.png</pixmap>
+         <pixmap>Space-Plant-icon.png</pixmap>
         </property>
        </widget>
       </item>
