@@ -1,10 +1,12 @@
 # paramsynth GUI
 
-Requires qt4-qmake and libqt4-dev 
+Requires qmake and libqt4-dev and possibly other qt packages
 
 Build instructions:
 
 ```
-qmake-qt4 paramsynthgui.pro 
+qmake paramsynthgui.pro 
 make
 ```
+
+Click "Local Session" to bypass login.
