@@ -19,4 +19,4 @@ qmake ../paramsynthgui.pro
 make
 ```
 
-Click "Local Session" to bypass login.
+Click "Local Session" to bypass login, or build and run the test server if you'd like.
