@@ -13,7 +13,7 @@ make
 Alternatively, if you want to keep the build files separate,
 ```
 mkdir build
-cp output/ build/
+cp -r output/ build/ 
 cd build
 qmake ../paramsynthgui.pro
 make
